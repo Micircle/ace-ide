@@ -1,0 +1,90 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    border: 1px solid #e0e0e0;
+}
+
+.wrapper pre {
+    margin: 0;
+    font-family: inherit;
+}
+
+.toolbar {
+    height: 30px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.content {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 20px;
+    flex: 1;
+}
+
+.logarea {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.clear {
+    cursor: pointer;
+    user-select: none;
+    width: 16px;
+    opacity: .6;
+}
+
+.clear:hover {
+    opacity: .8;
+}
+
+.input-wrapper {
+    display: flex;
+    padding: 0 10px;
+    flex: 1;
+}
+
+.log-row {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.log-row.error {
+    color: red;
+}
+
+.wrapper .arrow {
+    color: #1EAAFF;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.wrapper .gray-arrow {
+    color: #999;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.shadow-arrow {
+    color: #bbb;
+}
+
+.textarea {
+    font-family: inherit;
+    overflow: hidden;
+    border: none;
+    flex: 1;
+    outline: none;
+    line-height: 20px;
+    resize: none;
+    font-size: 14px;
+    padding: 0;
+}
